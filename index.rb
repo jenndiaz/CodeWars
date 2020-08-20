@@ -1,3 +1,12 @@
+# code wars 8/20/2020 
+def friend(friends)
+  friends.select do |person|
+    person.length == 4
+  end
+end
+
+
+
 #codewars 8/19/2020
 def even_or_odd(number)
   if number.even?
