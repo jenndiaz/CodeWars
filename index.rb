@@ -1,3 +1,19 @@
+
+#code wars 8/21/2020
+#Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+def even_or_odd(number)
+  if number.even?
+    'Even'
+   else
+     'Odd'
+   end
+end
+
+#We need a function that can transform a number into a string.
+def numberToString(num)
+  num.to_s
+end
+
 # code wars 8/20/2020 
 def friend(friends)
   friends.select do |person|
