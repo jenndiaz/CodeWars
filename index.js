@@ -1,0 +1,33 @@
+// solve 2 for 8/22/2020
+function removeChar(str) {
+    return str.slice(1, -1);
+  }
+
+function removeChar(str){
+    const array = str.split("")
+    const arraySlice = array.slice(1,-1)
+    const finalArray = arraySlice.join("")
+    return finalArray
+  };
+  
+
+function removeChar(str){
+    const array = str.split("")
+    const arrayEnd = array.pop()
+    const arrayShift = array.shift()
+    const finalArray = array.join("")
+    return finalArray
+  };
+  
+
+// solve 1 for 8/22/2020
+str = "hello"
+function solution(str){
+  return str.split("").reverse().join("");  
+}
+
+console.log(solution(str));
+// Test.assertEquals(solution('world'), 'dlrow')
+// Test.assertEquals(solution('hello'), 'olleh')
+// // Test.assertEquals(solution(''), '')
+// Test.assertEquals(solution('h'), 'h')
