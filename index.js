@@ -1,3 +1,12 @@
+// solve for 8/26/2020
+function checkAlive (health) {
+  if (health > 0) return true;
+  return false;
+}
+
+//  Test.assertEquals(checkAlive(5), true)
+// Test.assertEquals(checkAlive(0), false)
+
 // solve 2 for 8/22/2020
 function removeChar(str) {
     return str.slice(1, -1);
