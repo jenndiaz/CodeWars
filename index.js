@@ -1,3 +1,11 @@
+// solve for 8/31/2020
+function getAverage(marks){
+  const result= marks.reduce((total,score) => total+score);
+  const mean = result/marks.length
+  console.log(mean);
+  const finalNumber = Math.floor(mean)
+  return finalNumber
+
 // solve for 8/26/2020
 function checkAlive (health) {
   if (health > 0) return true;
