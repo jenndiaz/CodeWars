@@ -1,3 +1,25 @@
+// solve for 9/14/2020 Check the Exam 
+function checkExam(array1, array2) {
+  const score = 0;
+  for (var i = 0; i < array1.length; i++ ){
+    if (array1[i] === array2[i]){
+      
+      score += 4;
+    } 
+    else if (array2[i] === ""){
+      score -= 0;
+    }
+    else {
+      score -= 1;
+  }
+  }
+  
+  if (score < 0){
+    score = 0;
+  };
+  return score
+};
+
 // solve for 9/12/2020 Keep Hydrated!
 function litres(time) {
   return Math.floor(time/2);
