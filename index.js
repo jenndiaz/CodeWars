@@ -1,3 +1,7 @@
+// solve for 9/15/2020 Returning Strings 
+function greet(name){
+  return `Hello, ${name} how are you doing today?`
+}
 // solve for 9/14/2020 Check the Exam 
 function checkExam(array1, array2) {
   const score = 0;
