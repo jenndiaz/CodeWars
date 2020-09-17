@@ -1,3 +1,33 @@
+// solve for 9/17/2020 Welcome!
+function greet(language) {
+
+  const welcomeArray ={
+  english: 'Welcome',
+  czech: 'Vitejte',
+  danish: 'Velkomst',
+  dutch: 'Welkom',
+  estonian: 'Tere tulemast',
+  finnish: 'Tervetuloa',
+  flemish: 'Welgekomen',
+  french: 'Bienvenue',
+  german: 'Willkommen',
+  irish: 'Failte',
+  italian: 'Benvenuto',
+  latvian: 'Gaidits',
+  lithuanian: 'Laukiamas',
+  polish: 'Witamy',
+  spanish: 'Bienvenido',
+  swedish: 'Valkommen',
+  welsh: 'Croeso'
+  }
+    if (welcomeArray[language]) {
+      return welcomeArray[language];
+      }
+    else {
+      return "Welcome"
+    }}
+  
+  greet('german')
 // solve for 9/15/2020 Returning Strings 
 function greet(name){
   return `Hello, ${name} how are you doing today?`
