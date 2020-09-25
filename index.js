@@ -1,3 +1,16 @@
+// solve for 9/25/2020
+function findLongest(str) {
+  var spl = str.split(" ")
+  var longest = 0;
+  
+  for (var i = 0; i < spl.length; i++) {
+    if (spl[i].length > longest) {
+      longest = spl[i].length;
+    }
+  }
+    return longest
+}
+
 // solve for 9/22/2020 
 function weatherInfo (temp) {
   var c = convertToCelsius(temp)
